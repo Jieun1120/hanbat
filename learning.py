@@ -77,7 +77,7 @@ logdir = "/content/drive/MyDrive/logs"
 tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir = logdir)
 
 # 학습
-hist = model.fit(train, epochs = 18, validation_data = val, callbacks = [tensorboard_callback])
+hist = model.fit(train, epochs = 15, validation_data = val, callbacks = [tensorboard_callback])
 
 # loss 그래프
 fig = plt.figure()
