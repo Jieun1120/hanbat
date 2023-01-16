@@ -1,7 +1,7 @@
 #include <Stepper.h>
 #include <Servo.h>
 
-uint8_t SERVO_PIN = 7U;
+uint8_t SERVO_PIN {7U};
 
 const uint16_t step_per_revolution = 2048U;
 uint8_t deg = 0;
